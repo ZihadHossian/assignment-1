@@ -309,6 +309,91 @@ font-size: 15px;
 font-weight: 600;
 line-height: 18px;
  }
+ /* All Button Hover Style  using ID*/
 #one:hover{
     background-color: cadetblue;
+ }
+ /* Donate for Bangladesh Style */
+ .donate-for-bd{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    width: 1280px;
+    height: 380px;
+    margin: 0 50px 0 20px;
+ }
+ .donate-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 40px;
+ }
+ .donate-detail{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+ }
+ .donate-btn{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+ }
+ .amount-donate{
+width: 200px;
+height: 100px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 35px;
+margin-bottom: 30px;
+ }
+ .input-text-something{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .text-something{
+    text-align: center;
+    width: 850px;
+    height: 50px;
+    box-sizing: border-box;
+    border-style: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+ }
+ .donate-done{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 150px;
+padding: 12px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+margin-top: 30px;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 3px;
+background: rgb(0, 106, 80);
  }
